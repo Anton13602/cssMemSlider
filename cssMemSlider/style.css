@@ -39,7 +39,7 @@ input {
 
 .slider {
   width: 400%;
-  height: calc(10rem + (40 - 10) * ((100vw - 320px)/(430 - 320)));
+  height: calc(10rem + (40 - 10) * ((100vw - 20rem)/(430 - 320)));
   display: flex;
   transition: all 0.4s ease;
   align-items: center;
