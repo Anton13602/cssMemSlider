@@ -96,6 +96,7 @@ label {
   padding: 0.7rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: transform 0.2s linear;
 }
 
 
@@ -104,6 +105,7 @@ label {
   height: 1rem;
   background-color: grey;
   border-radius: 1rem;
+  transition: transform 0.2s linear;
 }
 
 
@@ -130,6 +132,12 @@ label:hover .btn {
   box-shadow: 0 0 0.4em rgb(0 0 0 / 20%);
 }
 
+label:active .btn:active {
+  transform: scale(0.9);
+}
+label:active .btn {
+  transform: scale(0.9);
+}
 
 .slide1:checked ~ .slider {
   margin-left: 0%;
